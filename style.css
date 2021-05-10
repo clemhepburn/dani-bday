@@ -1,0 +1,41 @@
+body {
+  width: 100%;
+  background-color: greenyellow;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border:lightgrey 10px groove;
+  margin: 20px;
+}
+
+
+
+img {
+  max-width: 800px;
+  border-radius: 50%;
+  border: 20px blue dotted;
+  cursor: pointer;
+}
+
+img:hover {
+  border: 20px paleturquoise dotted;
+}
+
+h1 {
+  font-size: 96px;
+  text-align: center;
+  color: hotpink;
+  text-shadow: orange 5px 5px 10px;
+}
+
+.tulip {
+  text-shadow: none;
+  border-top: 5px solid thistle;
+  padding-top: 40px;
+}
